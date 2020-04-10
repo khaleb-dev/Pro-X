@@ -1,3 +1,3 @@
 <?php
-	header('location: ../../../not-authorized.php')
+	header('location: ../../../not-authorized')
 ?>
