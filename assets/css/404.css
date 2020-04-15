@@ -1,0 +1,32 @@
+#container2 {
+	margin: 0 auto;
+	width: 800px;
+	height: 900px;
+	text-align:justify;
+	background-color: #000000;
+
+}
+
+h1 {
+	color: #e74c3c;
+}
+
+body {
+	background-image: url(/assets/img/blackbg.jpg);
+}
+p {
+	color: #ffffff;
+
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	background-color:cc0066;
+	text-align: center;
+	
+}
+a:link, a:viited, a:hover, a:active{
+	text-decoration: none;
+	color:blue;
+	text-align: center;
+}
