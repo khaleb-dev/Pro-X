@@ -1,23 +1,24 @@
 #container2 {
 	margin: 0 auto;
 	width: 800px;
-	height: 900px;
+	height: 800px;
 	text-align:justify;
-	background-color: #000000;
-
+	background-color: #FFFFFF;
 }
 
-h1 {
+h2 {
 	color: #e74c3c;
+}
+
+p {
+	color: #000000;
+
 }
 
 body {
 	background-image: url(/assets/img/blackbg.jpg);
 }
-p {
-	color: #ffffff;
 
-}
 
 a:link, a:visited{
 	text-decoration: none;
@@ -29,4 +30,12 @@ a:link, a:viited, a:hover, a:active{
 	text-decoration: none;
 	color:blue;
 	text-align: center;
+}
+
+.row-404 {
+    padding-top: 15em;
+    padding-left: 7em;
+}
+.pt-5, .py-5 {
+    padding-top: 1px!important;
 }

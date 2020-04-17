@@ -1,0 +1,30 @@
+.upper{
+height: 100px;
+background-color: #7f0000;
+
+}
+p{
+	color: blue;
+}
+a:link, a:visited{
+	text-decoration: none;
+	background-color:;
+	
+}
+a:link, a:viited, a:hover, a:active{
+	text-decoration: none;
+	color:blue;
+	
+	
+	
+}
+
+.lower{
+height: 100px;
+background-color: #7f0000;
+
+}
+
+img{
+	align-content: center;
+}
