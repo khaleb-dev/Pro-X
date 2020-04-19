@@ -1,12 +1,12 @@
 <?php 
-
+include './utilities/utility.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Dashboard || Pro-X</title>
+  <title>Dashboard || <?= Utility::APPLICATION_TITLE?></title>
 	<!-- General CSS Files -->
 	<link rel="stylesheet" href="../assets/vendor/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../assets/vendor/css/font-awesome-5.8.2/css/all.css">
@@ -167,7 +167,7 @@
         <aside id="sidebar-wrapper">
           <div class="sidebar-brand">
             <a href="#"> <img alt="image" src="../assets/img/logo.png" class="header-logo" /> <span
-                class="logo-name">Pro-X</span>
+                class="logo-name"><?= Utility::APPLICATION_NAME?></span>
             </a>
           </div>
           <ul class="sidebar-menu">
@@ -426,7 +426,7 @@
       </div>
       <footer class="main-footer">
         <div class="footer-left">
-          <a href="https://www.github.com/KhalebOBrien">weird_coder</a></a>
+          Developed by <a href="">rockey world</a>.
         </div>
         <div class="footer-right">
         </div>
