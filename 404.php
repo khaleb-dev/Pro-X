@@ -9,14 +9,22 @@
 </head>
 <body>
 <div id="container2">
-	<!--BODY BACKGROUND="assets/img/404b.jpg"-->
-	<h1>OoPs! 404 (Page Not Found)</h1>
-	<P>I'm afraid you've found a page that doesn't really exist. That can happen when you follow a link to something that has since been deleted. Or the link was incorrect to begin with.Sorry about that.</P>
+	<div class="container">
+		<div class="row row-404">
+			 <br>
+			 
+			<div class="col-md-8 pl-5 f-e-t-col">
+				<p>
+					<h3>OoPs! 404 (Page Not Found)</h3>
+				</p>
+				
+				<p class="pt-5">I'm afraid you've found a page that doesn't really exist. That can happen when you follow a link to something that has since been deleted. Or the link was incorrect to begin with.Sorry about that.</p>
+				<button class="btn btn-primary">BACK HOME</button>
+			</div>
+		</div>
+	</div>
 	
-	<!--<a href="#">BACK HOME</a> -->
-	<button>Got</button>
 </div>
-
 
 
 

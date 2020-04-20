@@ -1,0 +1,146 @@
+body{
+		  font-family: 'Raleway', sans-serif;
+		  font-size: 14px;
+		  -webkit-font-smoothing: antialiased;
+		}
+
+		h1, h2, h3, h4, h5{
+			font-family: 'Montserrat', sans-serif;
+		}
+		a{
+			color: #000;
+		}
+		a:hover {
+		  text-decoration: none;
+		  color: #509cfa;
+		}
+
+		.banner{
+			height:100vh;
+		  padding: 200px 0;
+		  position: relative;
+		}
+
+		.overlay:before {
+		  content: '';
+		  background-image: linear-gradient(to top, #30cfd0 0%, #3dc9b3 100%); 
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+		}
+
+		.banner h1{
+		  color: #FFF;
+		}
+
+		.banner h3{
+		  color: #FFF;
+		  opacity: .8;
+		  font-size:18px;
+		}
+
+		.banner p{
+		  color: #FFF;
+		  font-size: 24px;
+		  padding: 40px 0;
+		  font-weight: 300;
+		  width: 70%;
+		  margin: 0 auto;
+		  background-color: #353c48;
+		}
+
+		.navbar-brand{
+		  color: #FFF;
+		}
+
+		.menu li a {
+		  padding:10px 20px!important;
+		  color: #FFF;
+		}
+
+		.btn-main-rounded{
+		  padding: 15px 40px;
+		  background: #509cfa;
+		  color: #fff;
+		  -webkit-border-radius: 100px;
+		  border-radius: 100px;
+		  font-weight: bold;
+		  letter-spacing: 1px;
+		}
+
+		.btn-main-rounded:hover{
+		  box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.11);
+		  color: #FFF;
+		  transform: translate3d(0,-2px,0);
+		}
+
+		.navbar-brand:hover {
+			color:#fff;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#HASH{
+height: 70px;
+background-color: #3dc9b3;
+    padding-top: 2rem !important;
+    padding-right: 5rem !important;
+    display: flex;
+  justify-content: space-between;
+}
+
+p{
+	color: blue;
+}
+a:link, a:visited{
+	text-decoration: none;
+	background-color:;
+	
+}
+a:link, a:viited, a:hover, a:active{
+	text-decoration: none;
+	color:blue;	
+}
+
+/*
+body{background-image: url(/assets/img/chi.jpg);
+  	background-repeat: no-repeat;
+  	background-size: auto;
+	}
+*/
+/*.lower{
+height: 100px;
+background-color: #7f0000;
+
+}
+
+img{
+	align-content: center;
+}
+
+
+
+.upper{
+height: 70px;
+background-color: #3dc9b3;
+}
+.lin{
+	padding-top: 1rem !important;
+    padding-left:79rem !important;
+    }
+  .peams{
+  	padding-top: 5px;
+  }
+  */
