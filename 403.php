@@ -1,12 +1,12 @@
 <?php 
-  include './application/utilities/utility.php';
+	include './application/utilities/utility.php';
 ?>
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>400 || <?= Utility::APPLICATION_TITLE?></title>
+  <title>403 || <?= Utility::APPLICATION_TITLE?></title>
   <!-- General CSS Files -->
   <link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/vendor/css/font-awesome-5.8.2/css/all.css">
@@ -25,9 +25,10 @@
       <div class="container mt-5">
         <div class="page-error">
           <div class="page-inner">
-            <h1>404</h1>
+            <h1>403</h1>
             <div class="page-description">
-              The page you were looking for could not be found.
+              NOT AUTHORIZED!<br>
+              You do not have access to this page.
             </div>
             <div class="page-search">
               <form>
@@ -66,6 +67,5 @@
     <!-- Template JS File -->
     <script src="assets/js/iScripts.js"></script>
     <!-- Custom JS File -->
-    <!-- <script src="assets/js/custom.js"></script> -->
-</body>
+    <!-- <script src="assets/js/custom.js"></script> --></body>
 </html>

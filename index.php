@@ -1,10 +1,10 @@
-<?php  
-
+<?php 
+	include './application/utilities/utility.php';
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Index | Pro-X</title>
+	<title>Index || <?= Utility::APPLICATION_TITLE?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/vendor/css/font-awesome-5.8.2/css/all.css">
