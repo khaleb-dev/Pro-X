@@ -39,20 +39,12 @@
                         <nav class="navbar navbar-expand-lg navbar-light">
                             <!-- Logo -->
                             <a class="navbar-brand" href="#">Pro-X</a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                            <!-- Menu Area -->
-                            <div class="collapse navbar-collapse" id="ca-navbar">
-                                <div class="sing-up-button d-lg-none">
+                            <div class="col-xm-6 col-sm-6 col-md-4 col-lg-12" style="width: auto;">
+                                <div class="sing-up-button">
                                     <a href="login">Login</a>
                                 </div>
                             </div>
                         </nav>
-                    </div>
-                </div>
-                <!-- Signup btn -->
-                <div class="col-12 col-lg-2">
-                    <div class="sing-up-button d-none d-lg-block">
-                        <a href="login">Login</a>
                     </div>
                 </div>
             </div>
@@ -143,15 +135,15 @@
                                 <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
                                     <!-- Google Store Btn -->
                                     <a href="#">
-                                        <i class="fa fa-android"></i>
-                                        <p class="mb-0"><span>available on</span> Google Store</p>
+                                        <i class="fab fa-windows"></i>
+                                        <p class="mb-0"><span>compactible with</span> Windows</p>
                                     </a>
                                 </div>
                                 <div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
                                     <!-- Apple Store Btn -->
                                     <a href="#">
-                                        <i class="fa fa-apple"></i>
-                                        <p class="mb-0"><span>available on</span> Apple Store</p>
+                                        <i class="fab fa-apple"></i>
+                                        <p class="mb-0"><span>compactible with</span> MacOS</p>
                                     </a>
                                 </div>
                             </div>
@@ -302,13 +294,13 @@
                         <p>We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!</p>
                     </div>
                     <div class="address-text">
-                        <p><span>Address:</span> 40 Baria Sreet 133/2 NewYork City, US</p>
+                        <p><span>Address:</span> 50 Ekpo Abasi Street, Calabar, Cross River, Nigeria</p>
                     </div>
                     <div class="phone-text">
-                        <p><span>Phone:</span> +11-225-888-888-66</p>
+                        <p><span>Phone:</span> +234-(0)-810-3174-565</p>
                     </div>
                     <div class="email-text">
-                        <p><span>Email:</span> info.deercreative@gmail.com</p>
+                        <p><span>Email:</span> ebukauche52@gmail.com</p>
                     </div>
                 </div>
                 <div class="col-md-6">
