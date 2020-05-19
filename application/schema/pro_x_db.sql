@@ -75,8 +75,23 @@ create table if not exists `product` (
 	`created_at` datetime not null,
 	`updated_at` datetime not null,
 	primary key (`id`),
-	foreign key (`category_id`) references category(`id`)
+	foreign key (`category_id`) references category(`id`),
 	foreign key (`user_id`) references user(`id`)
 );
+
+insert into user_status (`name`, `description`) values
+('Active', 'This user is active.'),
+('Suspended', 'This user has been suspended.'),
+('Fired', 'This user was fired.'),
+('Retired', 'This user is retired.'),
+('Resigned', 'This user resigned.');
+
+insert into user_role (`name`, `description`) values
+('Administrator', 'This is the default admin, has access to the whole modules.'),
+('Manager', 'This is the owner of the shop.'),
+('Staff', 'This is an employee.');
+
+insert into user (`unique_id`, `user_status_id`, `user_role_id`, `fullname`, `gender`, `phone_no`, `email`, `username`, `password`, `passport_url`, `created_at`, `updated_at`) values
+('uyY87jaK', 1, 1, 'Default Administrator', 'Rather not Say', '+2340123456789', 'defaultAdmin@pro-x.com', 'admin', 'sasdfajhdgjf', null, NOW(), NOW());
 
 commit;
