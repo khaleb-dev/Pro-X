@@ -92,6 +92,7 @@ insert into user_role (`name`, `description`) values
 ('Staff', 'This is an employee.');
 
 insert into user (`unique_id`, `user_status_id`, `user_role_id`, `fullname`, `gender`, `phone_no`, `email`, `username`, `password`, `passport_url`, `created_at`, `updated_at`) values
-('uyY87jaK', 1, 1, 'Default Administrator', 'Rather not Say', '+2340123456789', 'defaultAdmin@pro-x.com', 'admin', 'sasdfajhdgjf', null, NOW(), NOW());
+('uyY87jaK', 1, 1, 'Default Administrator', 'Rather not Say', '+2340123456789', 'machine@pro-x.com', 'machine', '$2y$10$nNSlA.PMMaxvMKWpCtFXf.O71O5vF9C5vhn.gFiq..seTO85vhEmy', null, NOW(), NOW());
+-- password = 123456
 
 commit;

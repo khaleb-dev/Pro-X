@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>403 || <?= Utility::APPLICATION_TITLE?></title>
+  <title>403 :-: <?= Utility::APPLICATION_TITLE?></title>
   <!-- General CSS Files -->
   <link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/vendor/css/font-awesome-5.8.2/css/all.css">
