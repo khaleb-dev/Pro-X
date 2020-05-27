@@ -6,7 +6,7 @@ include './utilities/utility.php';
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Dashboard || <?= Utility::APPLICATION_TITLE?></title>
+  <title>Dashboard :-: <?= Utility::APPLICATION_TITLE?></title>
 	<!-- General CSS Files -->
 	<link rel="stylesheet" href="../assets/vendor/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../assets/vendor/css/font-awesome-5.8.2/css/all.css">
@@ -55,27 +55,27 @@ include './utilities/utility.php';
                 </div>
               </div>
               <div class="dropdown-list-content dropdown-list-message">
-                <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white"> <img alt="image" src="./app_uploads/male.png" class="rounded-circle">
+                <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white"> <img alt="image" src="./app_upload/male.png" class="rounded-circle">
                   </span> <span class="dropdown-item-desc"> <span class="message-user">John
                       Deo</span>
                     <span class="time messege-text">Please check your mail !!</span>
                     <span class="time">2 Min Ago</span>
                   </span>
                 </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
-                    <img alt="image" src="./app_uploads/female.png" class="rounded-circle">
+                    <img alt="image" src="./app_upload/female.png" class="rounded-circle">
                   </span> <span class="dropdown-item-desc"> <span class="message-user">Sarah
                       Smith</span> <span class="time messege-text">Request for leave
                       application</span>
                     <span class="time">5 Min Ago</span>
                   </span>
                 </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
-                    <img alt="image" src="./app_uploads/male.png" class="rounded-circle">
+                    <img alt="image" src="./app_upload/male.png" class="rounded-circle">
                   </span> <span class="dropdown-item-desc"> <span class="message-user">Jacob
                       Ryan</span> <span class="time messege-text">Your payment invoice is
                       generated.</span> <span class="time">12 Min Ago</span>
                   </span>
                 </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
-                    <img alt="image" src="./app_uploads/female.png" class="rounded-circle">
+                    <img alt="image" src="./app_upload/female.png" class="rounded-circle">
                   </span> <span class="dropdown-item-desc"> <span class="message-user">Lina
                       Smith</span> <span class="time messege-text">hii John, I have upload
                       doc
@@ -83,7 +83,7 @@ include './utilities/utility.php';
                       Min Ago</span>
                   </span>
                 </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
-                    <img alt="image" src="./app_uploads/male.png" class="rounded-circle">
+                    <img alt="image" src="./app_upload/male.png" class="rounded-circle">
                   </span> <span class="dropdown-item-desc"> <span class="message-user">Jalpa
                       Joshi</span> <span class="time messege-text">Please do as specify.
                       Let me
@@ -91,7 +91,7 @@ include './utilities/utility.php';
                       Days Ago</span>
                   </span>
                 </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
-                    <img alt="image" src="./app_uploads/female.png" class="rounded-circle">
+                    <img alt="image" src="./app_upload/female.png" class="rounded-circle">
                   </span> <span class="dropdown-item-desc"> <span class="message-user">Sarah
                       Smith</span> <span class="time messege-text">Client Requirements</span>
                     <span class="time">2 Days Ago</span>
@@ -145,7 +145,7 @@ include './utilities/utility.php';
             </div>
           </li>
           <li class="dropdown"><a href="#" data-toggle="dropdown"
-              class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="./app_uploads/male.png"
+              class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="./app_upload/male.png"
                 class="user-img-radious-style"> <span class="d-sm-none d-lg-inline-block"></span></a>
             <div class="dropdown-menu dropdown-menu-right pullDown">
               <div class="dropdown-title">Hello Sarah Smith</div>
@@ -156,7 +156,7 @@ include './utilities/utility.php';
                 Settings
               </a>
               <div class="dropdown-divider"></div>
-              <a href="#" class="dropdown-item has-icon text-danger"> <i class="fas fa-sign-out-alt"></i>
+              <a href="./logout" class="dropdown-item has-icon text-danger"> <i class="fas fa-sign-out-alt"></i>
                 Logout
               </a>
             </div>
