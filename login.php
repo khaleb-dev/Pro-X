@@ -1,12 +1,17 @@
 <?php 
-  include './application/utilities/utility.php';
+    session_start();
+    session_destroy();
+    session_start();
+    include_once './application/utilities/utility.php';
+    include_once './application/app_controller/authController.php';
+    $_SESSION['lCSRF'] = Utility::Generate_Random_Token();
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title>Login || <?= Utility::APPLICATION_TITLE?></title>
+    <title>Login :-: <?= Utility::APPLICATION_TITLE?></title>
 	<!-- General CSS Files -->
 	<link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/vendor/css/font-awesome-5.8.2/css/all.css">
@@ -31,18 +36,18 @@
                             <div class="card-body">
                                 <form action="" class="needs-validation" method="POST" novalidate="">
                                     <div class="form-group">
-                                        <label for="email">Email</label>
-                                        <input autofocus="" class="form-control" id="email" name="email" required="" tabindex="1" type="email">
-                                        <div class="invalid-feedback">Please fill in your email</div>
+                                        <label for="email">Email/Username</label>
+                                        <input autofocus="" class="form-control" id="txtEmail" name="txtEmail" required="" tabindex="1" type="text">
+                                        <div class="invalid-feedback">Please fill in your email or username</div>
                                     </div>
                                     <div class="form-group">
                                         <div class="d-block">
                                             <label class="control-label" for="password">Password</label>
                                             <div class="float-right">
-                                                <a class="text-small" href="auth-forgot-password.html">Forgot Password?</a>
+                                                <a class="text-small" href="#">Forgot Password?</a>
                                             </div>
                                         </div>
-                                        <input class="form-control" id="password" name="password" required="" tabindex="2" type="password">
+                                        <input class="form-control" id="txtPwd" name="txtPwd" required="" tabindex="2" type="password">
                                         <div class="invalid-feedback">please fill in your password</div>
                                     </div>
                                     <div class="form-group">
@@ -51,13 +56,14 @@
                                             <label class="custom-control-label" for="remember-me">Remember Me</label>
                                         </div>
                                     </div>
+                                    <input type="hidden" name="lCSRF" value="<?php echo $_SESSION['lCSRF']; ?>" />
                                     <div class="form-group">
                                         <button class="btn btn-primary btn-lg btn-block" tabindex="4" type="submit">Login</button>
                                     </div>
                                 </form>
                             </div>
                         </div>
-                        <div class="mt-5 text-muted text-center">Don't have an account? <a href="">Contact Admin</a></div>
+                        <div class="mt-5 text-muted text-center">Don't have an account? <a href="#">Contact Admin</a></div>
                     </div>
                 </div>
             </div>
