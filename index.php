@@ -41,7 +41,7 @@
                             <a class="navbar-brand" href="#">Pro-X</a>
                             <div class="col-xm-6 col-sm-6 col-md-4 col-lg-12" style="width: auto;">
                                 <div class="sing-up-button">
-                                    <a href="login">Login</a>
+                                    <a href="login?<?=Utility::random_strings(15)?>">Login</a>
                                 </div>
                             </div>
                         </nav>

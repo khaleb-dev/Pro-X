@@ -1,6 +1,9 @@
 <?php
 @session_start();
 include_once './utilities/utility.php';
+if(empty($_SESSION['unique_id'])){
+    header("Location: ../login");
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,6 +20,7 @@ include_once './utilities/utility.php';
 	<!-- Custom style CSS -->
 	<!-- <link href="../assets/css/custom.css" rel="stylesheet"> -->
 	<link href="../assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <?php include_once './app_fragment/frag_css.php'?>
 </head>
 
 <body>
