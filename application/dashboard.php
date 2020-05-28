@@ -230,5 +230,11 @@ if(empty($_SESSION['unique_id'])){
   <script src="../assets/js/iScripts.js"></script>
   <!-- Custom JS File -->
   <script src="../assets/js/custom.js"></script>
+  <!-- Inline Scripts -->
+  <script type="text/javascript">
+    jQuery(document).ready(function(){
+      jQuery("#dbdLink").attr('class','dropdown active');
+    });
+  </script>
 </body>
 </html>

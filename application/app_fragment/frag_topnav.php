@@ -19,10 +19,9 @@
           </ul>
         </div>
         <ul class="navbar-nav navbar-right">
-          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown"
-              class="nav-link nav-link-lg message-toggle"><i data-feather="mail"></i>
-              <span class="badge headerBadge1">
-                6 </span> </a>
+          <li class="dropdown dropdown-list-toggle">
+            <a href="#" data-toggle="dropdown" class="nav-link nav-link-lg message-toggle"><i data-feather="mail"></i>
+              <span class="badge headerBadge1"> 6 </span> </a>
             <div class="dropdown-menu dropdown-list dropdown-menu-right pullDown">
               <div class="dropdown-header">
                 Messages

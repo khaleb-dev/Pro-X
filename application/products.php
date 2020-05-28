@@ -10,7 +10,7 @@ if(empty($_SESSION['unique_id'])){
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Starter :-: <?= Utility::APPLICATION_TITLE?></title>
+  <title>Products :-: <?= Utility::APPLICATION_TITLE?></title>
   <!-- General CSS Files -->
   <link rel="stylesheet" href="../assets/vendor/css/bootstrap.min.css">
   <link rel="stylesheet" href="../assets/vendor/css/font-awesome-5.8.2/css/all.css">
@@ -53,7 +53,7 @@ if(empty($_SESSION['unique_id'])){
   <!-- Inline Scripts -->
   <script type="text/javascript">
     jQuery(document).ready(function(){
-      jQuery("#starterLink").attr('class','dropdown active');
+      jQuery("#proLink").attr('class','dropdown active');
     });
   </script>
 </body>

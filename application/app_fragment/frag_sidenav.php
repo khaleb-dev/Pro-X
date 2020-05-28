@@ -7,68 +7,26 @@
           </div>
           <ul class="sidebar-menu">
             <li class="menu-header">Main</li>
-            <li class="dropdown active">
-              <a href="#" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
+            <li class="" id="dbdLink">
+                <a href="./dashboard?<?=Utility::random_strings(15)?>" class="nav-link">
+                    <i data-feather="command"></i><span>Dashboard</span>
+                </a>
             </li>
-            <li class="dropdown">
-              <a href="#" class="menu-toggle nav-link has-dropdown"><i
-                  data-feather="briefcase"></i><span>Show Link</span></a>
-              <ul class="dropdown-menu">
-                <li><a class="nav-link" href="#">Link</a></li>
-                <li><a class="nav-link" href="#">Link</a></li>
-              </ul>
+            <li class="" id="catLink">
+                <a class="nav-link" href="./categories?<?=Utility::random_strings(15)?>">
+                    <i data-feather="archive"></i><span>Categories</span>
+                </a>
             </li>
-            <li class="menu-header">Grouped Links</li>
-            <li class="dropdown">
-              <a href="#" class="menu-toggle nav-link has-dropdown"><i
-                  data-feather="shopping-bag"></i><span>Show Link</span></a>
-              <ul class="dropdown-menu">
-                <li><a class="nav-link" href="#">Link</a></li>
-                <li><a class="nav-link" href="#">Link</a></li>
-              </ul>
+            <li class="" id="proLink">
+                <a class="nav-link" href="./products?<?=Utility::random_strings(15)?>">
+                    <i data-feather="shopping-bag"></i><span>Products</span>
+                </a>
             </li>
-            <li class="">
-            	<a class="nav-link" href="#"><i data-feather="file"></i><span>Link</span></a>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="menu-toggle nav-link has-dropdown"><i
-                  data-feather="shopping-bag"></i><span>Show Link</span></a>
-              <ul class="dropdown-menu">
-                <li><a class="nav-link" href="#">Link</a></li>
-                <li><a class="nav-link" href="#">Link</a></li>
-              </ul>
-            </li>
-            <li class="menu-header">Grouped Links</li>
-            <li class="dropdown">
-              <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="anchor"></i><span>Other
-                  Links</span></a>
-              <ul class="dropdown-menu">
-                <li><a class="nav-link" href="#">Link</a></li>
-                <li><a class="nav-link" href="#">Link</a></li>
-                <li><a class="nav-link" href="#">Link</a></li>
-                <li><a class="nav-link" href="#">Link</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="menu-toggle nav-link has-dropdown"><i
-                  data-feather="chevrons-down"></i><span>Multilevel Link</span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Menu 1</a></li>
-                <li class="dropdown">
-                  <a href="#" class="has-dropdown">Menu 2</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Child Menu 1</a></li>
-                    <li class="dropdown">
-                      <a href="#" class="has-dropdown">Child Menu 2</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Child Menu 1</a></li>
-                        <li><a href="#">Child Menu 2</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#"> Child Menu 3</a></li>
-                  </ul>
-                </li>
-              </ul>
+            <li class="menu-header">Pro Mode</li>
+            <li class="" id="starterLink">
+                <a class="nav-link" href="./starter?<?=Utility::random_strings(15)?>">
+                    <i data-feather="file"></i><span>Starter/Tesst</span>
+                </a>
             </li>
           </ul>
         </aside>
