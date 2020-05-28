@@ -1,7 +1,6 @@
-<?php
-	@session_start();
+<?php 
 	include_once './application/app_service/authService.php';
-
+	
 	if((isset($_POST['lCSRF'])) && ($_POST['lCSRF'] === $_SESSION['lCSRF']))
 	{
 		$emailUsername = $_POST['txtEmail'];

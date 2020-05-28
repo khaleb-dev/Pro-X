@@ -21,6 +21,8 @@ class Utility
 		const APPLICATION_NAME			=	'PRO-X';
 
 		const APPLICATION_DOMAIN		=	'https://domain.com';
+
+		const APPLICATION_AUTHOR		=	'Khaleb O\'Brien';
 		
 	#}
 

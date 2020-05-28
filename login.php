@@ -1,7 +1,5 @@
-<?php 
-    session_start();
-    session_destroy();
-    session_start();
+<?php
+    @session_start();
     include_once './application/utilities/utility.php';
     include_once './application/app_controller/authController.php';
     $_SESSION['lCSRF'] = Utility::Generate_Random_Token();
@@ -58,7 +56,7 @@
                                     </div>
                                     <input type="hidden" name="lCSRF" value="<?php echo $_SESSION['lCSRF']; ?>" />
                                     <div class="form-group">
-                                        <button class="btn btn-primary btn-lg btn-block" tabindex="4" type="submit">Login</button>
+                                        <button class="btn btn-primary btn-lg btn-block" tabindex="4" type="submit" name="btnLogin" value="Login">Login</button>
                                     </div>
                                 </form>
                             </div>
