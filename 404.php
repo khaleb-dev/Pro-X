@@ -48,7 +48,7 @@
                 </div>
               </form>
               <div class="mt-3">
-                <a href="index.html">Back to Home</a>
+                <a href="./index">Back to Home</a>
               </div>
             </div>
           </div>

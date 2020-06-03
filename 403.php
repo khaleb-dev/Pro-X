@@ -49,7 +49,7 @@
                 </div>
               </form>
               <div class="mt-3">
-                <a href="index.html">Back to Home</a>
+                <a href="#" onclick="window.history.back()">Return to Previous Page</a>
               </div>
             </div>
           </div>
