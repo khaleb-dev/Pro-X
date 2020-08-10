@@ -94,6 +94,6 @@ class Authenticate extends dbService
 	
 }
 
-define('DEFAULT_NAME',"bot@pro-x.com",true);
-define('DEFAULT_PASS',"123456",false);
+define('DEFAULT_NAME',"bot@pro-x.com");
+define('DEFAULT_PASS',"123456");
 ?>

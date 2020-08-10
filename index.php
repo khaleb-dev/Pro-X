@@ -14,7 +14,7 @@
     <title><?= Utility::APPLICATION_TITLE?></title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link href="assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 
     <!-- Core Stylesheet -->
     <link href="assets/css/landing.css" rel="stylesheet">
